@@ -1,0 +1,17 @@
+vm:
+  box: aspyatkin/ubuntu-14.04-server-amd64
+  box_version: ~> 1.0.3
+  ssh_insert_key: no
+  name: mail.acme.corp
+  memory: 1536
+  cpus: 2
+  hostname: mail.acme.corp
+  network:
+    private:
+      - ip: 192.168.163.250
+        netmask: 255.255.255.0
+  synced_folders:
+    - host: .
+      guest: /vagrant
+      opts:
+        disabled: yes
