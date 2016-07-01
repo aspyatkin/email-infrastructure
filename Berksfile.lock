@@ -15,6 +15,8 @@ DEPENDENCIES
     tag: v1.2.7
   python (~> 1.4.6)
   resolver (~> 1.3.0)
+  tls
+    path: ../tls-cookbook
 
 GRAPH
   7-zip (1.0.2)
@@ -44,19 +46,20 @@ GRAPH
     modern_nginx (~> 1.2.7)
     php (~> 1.9.0)
     postgresql (~> 4.0.6)
+    tls (~> 1.0.0)
   git (4.5.0)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  iis (4.1.9)
+  iis (4.1.10)
     windows (>= 1.34.6)
   latest-git (1.1.9)
     build-essential (>= 2.4.0)
     git (~> 4.5.0)
   modern_nginx (1.2.7)
     nginx (= 2.7.6)
-  mysql (7.1.1)
+  mysql (7.2.0)
     smf (>= 0.0.0)
     yum-mysql-community (>= 0.0.0)
   nginx (2.7.6)
@@ -94,8 +97,9 @@ GRAPH
     windows (>= 1.2.2)
   smf (2.2.8)
     rbac (>= 1.0.1)
+  tls (1.0.0)
   vim (2.0.1)
-  windows (1.44.0)
+  windows (1.44.1)
     chef_handler (>= 0.0.0)
   xml (2.0.0)
     build-essential (>= 0.0.0)

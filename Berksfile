@@ -8,3 +8,4 @@ cookbook 'latest-git', git: 'https://github.com/aspyatkin/latest-git', tag: 'v1.
 cookbook 'modern_nginx', git: 'https://github.com/aspyatkin/modern_nginx', tag: 'v1.2.7'
 
 cookbook 'email', path: '../email-cookbook'
+cookbook 'tls', path: '../tls-cookbook'
