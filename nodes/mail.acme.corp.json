@@ -10,12 +10,11 @@
     "domain": "acme.corp",
     "hostname": "mail.acme.corp",
     "postmaster_address": "postmaster@acme.corp",
-    "virtual_mailboxes": [
-      "postmaster@acme.corp"
+    "sending_domains": [
+      "acme.corp"
     ],
-    "virtual_aliases": {
-      "hello@acme.corp": "postmaster@acme.corp"
-    }
+    "admin_address": "admin@acme.corp",
+    "admin_fqdn": "admin.mail.acme.corp"
   },
   "environment": "staging",
   "automatic": {
