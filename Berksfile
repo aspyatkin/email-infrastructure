@@ -12,11 +12,10 @@ cookbook 'latest-git',
 cookbook 'modern_nginx',
          git: 'https://github.com/aspyatkin/modern_nginx',
          tag: 'v1.3.0'
-cookbook 'tls',
-         '~> 1.0.0'
+cookbook 'tls', '~> 1.0.1'
          # path: '../tls-cookbook'
          # git: 'https://github.com/aspyatkin/tls-cookbook',
-         # tag: 'v1.0.0'
+         # tag: 'v1.0.1'
 
 cookbook 'email',
          path: '../email-cookbook'
