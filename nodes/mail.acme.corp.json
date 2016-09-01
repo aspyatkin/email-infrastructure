@@ -14,7 +14,13 @@
       "acme.corp"
     ],
     "admin_address": "admin@acme.corp",
-    "admin_fqdn": "admin.mail.acme.corp"
+    "admin_fqdn": "admin.mail.acme.corp",
+    "postgrey": {
+      "whitelist_clients": [
+      ],
+      "whitelist_recipients": [
+      ]
+    }
   },
   "environment": "staging",
   "automatic": {
